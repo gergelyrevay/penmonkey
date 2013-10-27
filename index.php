@@ -8,6 +8,7 @@
 	<link rel="shortcut icon" href="/favicon.ico"/>
 </head>
 <body>
+    <script src="js/analytics.js"></script>
 	<script src="js/jquery-1.10.2.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<?php include("share.html") ?>
@@ -26,7 +27,9 @@
 		</div>
 		<?php include("carousel.php") ?>
 		<div class='hero-unit' id='main-desc'>
-			<p>This awesome pen holder can be attached to your notebooks of different sizes. It has a handy holder strip inside to keep your pens and pencils organized.</p>
+			<p>This hugging monkey keeps your pencils safe! 
+PENmonkey is an awesome pen case that can be attached to your notebooks of different sizes. It also has a handy holder strip inside to keep your pens and pencils organized. PENmonkey suits everybody with its minimal style and functional decoration. The material of the case is high quality 3mm thick felt (wool) so it feels like padded to keep your pencils away from breaking their point. The stripes are strong rubber bands, covered with colorful material. It will be also available in other color combination. The case is 20cm long and 9cm high. 
+All rights reserved.</p>
 			<a href="order.php" class="btn btn-large btn-success">Order</a>
 		</div>
 	</div>
