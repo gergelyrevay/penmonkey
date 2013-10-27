@@ -1,6 +1,7 @@
 <div id="carousel" class="carousel slide"><!-- class of slide for animation -->
 	<div class="carousel-inner">
 	<?php
+    require_once('img_desciprions.inc');
 	$carousel_imgs = scandir("img/carousel");
 
 	for ($i=2; $i <sizeof($carousel_imgs) ; $i++) { 
@@ -9,7 +10,7 @@
 		} else {
 			echo('<div class="item">');
 		}
-		echo('<img src="img/carousel/'.$carousel_imgs[$i].'" />');
+		echo('<img src="img/carousel/'.$carousel_imgs[$i].'" alt="'.$img_description[$carousel_imgs[$i]].'" title="'.$img_description[$carousel_imgs[$i]].'" />');
 		echo('</div>');
 	}
 	?>
