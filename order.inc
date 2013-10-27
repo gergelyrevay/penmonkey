@@ -30,7 +30,7 @@ if ($blind_captcha_raw != "")
 	if (mysqli_connect_errno($con))
   	{
   	error_log("Failed to connect to MySQL: " . mysqli_connect_error(),0);
-  	echo_error("Sorry there was a technical problem on our side, please try again later or send an email to FIXME safe email.");
+  	echo_error("Sorry there was a technical problem on our side, please try again later or send an email to &#112;&#101;&#110;&#109;&#111;&#110;&#107;&#101;&#121;&#40;&#97;&#116;&#41;&#115;&#97;&#114;&#97;&#108;&#97;&#99;&#122;&#111;&#46;&#99;&#111;&#109;.");
     return;
   	}
 
@@ -48,7 +48,7 @@ if ($blind_captcha_raw != "")
 
 		if (!mysqli_query($con,$sql))
 		{
-			echo_error("Sorry there was a technical problem on our side, please try again later or send an email to FIXME safe email.");
+  	        echo_error("Sorry there was a technical problem on our side, please try again later or send an email to &#112;&#101;&#110;&#109;&#111;&#110;&#107;&#101;&#121;&#40;&#97;&#116;&#41;&#115;&#97;&#114;&#97;&#108;&#97;&#99;&#122;&#111;&#46;&#99;&#111;&#109;.");
 			error_log('Error: ' . mysqli_error($con), 0);
             return;
 		} else
