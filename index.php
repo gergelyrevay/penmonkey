@@ -12,6 +12,7 @@
 	<script src="js/jquery-1.10.2.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<?php include("share.html") ?>
+	<?php include("seo.html") ?>
 	<div class='container'>
 		<div class='title'><img src="img/penmonkey_name.jpg" alt="Penmonkey" /></div>
 		<div class="navbar">
