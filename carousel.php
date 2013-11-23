@@ -1,7 +1,7 @@
 <div id="carousel" class="carousel slide"><!-- class of slide for animation -->
 	<div class="carousel-inner">
 	<?php
-    require_once('img_desciprions.inc');
+    require_once('img_descriptions.inc');
 	$carousel_imgs = scandir("img/carousel");
 
 	for ($i=2; $i <sizeof($carousel_imgs) ; $i++) { 
